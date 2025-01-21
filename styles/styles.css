@@ -9,3 +9,227 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.display-flex{
+    display: flex;
+}
+
+/* navbar style */
+
+.navbar{
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 140px;
+
+
+}
+
+
+.logo-class{
+    width: 62px;
+    height: 62px;
+}
+
+.school-name{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 11px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    width: 129px;
+    height: 30px;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+    
+}
+
+.nav-links{
+    list-style: none;
+    margin-right: 186px;
+    margin-left: 186px;
+}
+
+.nav-link-1{
+    text-decoration: none;
+    color: #FEA301;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-right: 32px;
+    
+    
+}
+
+.nav-link-2{
+    text-decoration: none;
+    color: #01ACFD;
+    font-size: 1.25rem;
+    margin-right: 32px;
+    font-weight: 400;
+
+}
+
+.nav-link-3{
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin-right: 32px;
+    font-weight: 400;
+    color: #05D4DF;
+}
+
+.nav-link-4{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5D58EF;
+    
+}
+
+.btn-class{
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    background-color: orange;
+    border-radius: 12px;
+    padding-left: 60.5px;
+    padding-right: 60.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 197px;
+    max-height: 50px;
+    
+}
+
+.hamburger-icon{display: none;}
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-left: 141px;
+    margin-right: 140.39px;
+    margin-bottom: 60px;
+
+}
+
+
+.banner-info{
+    margin-left: 141px;
+    margin-top: 122px;
+    margin-bottom: 122px;
+    margin-right: 50px;
+}
+
+.banner-heading{
+    max-width: 640px;
+    max-height: 183px;
+    margin-bottom: 24px;
+    
+
+}
+
+
+.banner-heading-writing{
+    font-weight: bold;
+    font-size: 3.5rem;
+
+
+}
+
+.banner-heading-writing1{
+    color: #FEA301;
+}
+
+.banner-heading-writing2{
+    color: #01ACFD;
+}
+
+.banner-content{
+    max-width: 640px;
+    max-height: 50px;
+    margin-bottom: 24px;
+}
+
+.banner-content-writing{
+    font-size: 1.25rem;
+    font-weight: 200px;
+   
+
+
+}
+
+.banner-btn{
+    font-weight: 300px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    padding-left: 47px;
+    padding-top: 10px;
+    padding-right: 47px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background-color: black;
+    max-width: 197px;
+    max-height: 50px;
+    margin-right: 443px;
+
+}
+
+@media screen and (max-width: 576px) {
+
+    /* navbar styles */
+    .logo-class{
+        width: 46px ;
+        height: 46px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-left: 16px;
+        margin-right: 282px;
+    }
+
+    .navbar{
+        margin-left: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        margin-right: 16px;
+        width: 358px;
+        height: 46px;
+    }
+
+    .school-name
+    {
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .btn-class{
+        display: none;
+    }
+
+    .hamburger-icon{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    /* banner-styles */
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+    
+    .banner-img1{
+        height: 413px;
+        weight: 336.58px;
+    }
+
+}
