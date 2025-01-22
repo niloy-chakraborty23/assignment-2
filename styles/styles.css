@@ -16,6 +16,19 @@
 
 /* navbar style */
 
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden; 
+    position: relative; 
+    animation: marquee 5s linear infinite; 
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateX(100%); } 
+    100% { transform: translateX(-100%); } 
+  }
+
 .navbar{
     margin-left: 140px;
     margin-top: 20px;
@@ -113,6 +126,7 @@
     margin-left: 141px;
     margin-right: 140.39px;
     margin-bottom: 60px;
+    
 
 }
 
@@ -172,12 +186,497 @@
     padding-bottom: 10px;
     border-radius: 12px;
     background-color: black;
-    max-width: 197px;
-    max-height: 50px;
+    
     margin-right: 443px;
 
 }
 
+
+/* curriculum */
+.curriculum-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 489.7px;
+    margin-top: 60px;
+    margin-right: 489.7px;
+    margin-bottom: 80px;
+    align-items: center;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+}
+.card-1{
+    margin-right: 28px;
+    align-items: center;
+    border-radius: 18.86px;
+    background-color: #DEF5FF;
+}
+.card-2{
+    margin-right: 28px;
+    align-items: center;
+    border-radius: 18.86px;
+    background-color: #FFF4DC;
+}
+.card-3{
+    margin-right: 28px;
+    align-items: center;
+    border-radius: 18.86px;
+    background-color: #F2E8FF;
+}
+.card-1img{
+    margin-left: 115.54px;
+    margin-right: 115.5px;
+    margin-top: 52.82px;
+
+}
+
+.card-2img{
+    margin-left: 113.18px;
+    margin-right: 113.14px;
+    margin-top: 52.82px;
+    
+
+}
+
+.card-3img{
+    margin-left: 125.54px;
+    margin-right: 125.53px;
+    margin-top: 56.84px;
+
+}
+
+
+.card-1-heading{
+    font-size: 1.53rem;
+    font-weight: bold;
+    margin-left: 78.57px;
+    margin-right: 78.18px;
+    margin-bottom: 33.48px;
+    margin-top: 32.07px;
+}
+
+.card-2-heading{
+    font-size: 1.53rem;
+    font-weight: bold;
+    margin-left: 72.47px;
+    margin-right: 72.07px;
+    margin-bottom: 33.48px;
+    margin-top: 32.07px;
+}
+
+.card-3-heading{
+    font-size: 1.53rem;
+    font-weight: bold;
+    margin-left: 68.31px;
+    margin-right: 67.09px;
+    margin-bottom: 33.48px;
+    margin-top: 32.07px;
+}
+
+.card-1-content{
+    font-weight: 200px;
+    font-size: 1rem;
+    margin-left: 40.88px;
+    margin-right: 40.67px;
+    margin-bottom: 33.95px;
+}
+
+.card-2-content{
+    font-weight: 200px;
+    font-size: 1rem;
+    margin-left: 40.88px;
+    margin-right: 40.67px;
+    margin-bottom: 33.95px;
+}
+
+.card-3-content{
+    font-weight: 200px;
+    font-size: 1rem;
+    margin-left: 40.88px;
+    margin-right: 40.67px;
+    margin-bottom: 33.95px;
+}
+
+.card-1-read{
+    font-weight: bold;
+    font-size: 0.94rem;
+    color: #64C8FF;
+    margin-left: 132.46px;
+    margin-right: 132.42px;
+    margin-bottom: 53.76px;
+}
+
+.card-2-read{
+    font-weight: bold;
+    font-size: 0.94rem;
+    color: #F0AA00;
+    margin-left: 132.46px;
+    margin-right: 132.42px;
+    margin-bottom: 53.76px;
+}
+
+.card-3-read{
+    font-weight: bold;
+    font-size: 0.94rem;
+    color: #8700FF;
+    margin-left: 132.46px;
+    margin-right: 132.42px;
+    margin-bottom: 53.76px;
+}
+
+/* footer styles*/
+footer{
+    background-color: #01ACFD;
+}
+
+.foot{
+    display: flex;
+}
+
+.last-logo-class{
+    display: flex;
+    justify-content: center;
+}
+
+.last-logo{
+    width: 82.9px;
+    height: 81.65px;
+    margin-top: 123px;
+    margin-left: 146.28px;
+    margin-bottom: 35.35px;
+
+    
+   
+
+}
+
+.kid{
+    font-weight: bold;
+    font-size: 2.63rem;
+    color: #FFFFFF;
+    width: 206.1px;
+    height: 80px;
+    margin-top: 124.32px;
+    margin-bottom: 35.68px;
+    margin-right: 279.02px;
+
+}
+
+
+.kids-education-content{
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #FFFFFF;
+    margin-left: 148px;
+    margin-bottom: 179px;
+    margin-right: 172.71px;
+}
+
+.about-school{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin-top: 123px;
+    margin-right: 143.16px;
+    margin-bottom: 32px;
+
+
+}
+
+.about-nav{
+    list-style: none;
+    align-items: left;
+
+}
+
+.h{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+
+
+
+}
+
+.a{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-bottom: 23.35px;
+
+
+}
+
+.f{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-bottom: 16.25px;
+
+}
+
+.ad{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: #FFFFFF;
+
+}
+
+.last-logo-k{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    max-width: 177.12px;
+    max-height: 26px;
+    margin-top: 127px;
+    margin-left: 143.16px;
+    margin-right: 242.63px;
+
+}
+
+.logoes{
+    margin-right: 227.09px;
+    margin-left: 150px;
+    border-radius: 4px;
+    
+
+}
+
+/* Stories Styles */
+.stories{
+    background-image: url(/images/assets/bg.png);
+    background-image: linear-gradient(rgba(254, 163, 1, 0.3));
+    
+}
+
+
+.stories-heading1{
+    font-weight: bold;
+    font-size: 46px;
+    align-items: center;
+    margin-left: 489.7px;
+    margin-right: 489.7px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 460.61px;
+    height: 57.5px;
+
+}
+
+.card11{
+    background-color: #FFFFFF;
+    width: 540.27px;
+    height: 630.52px;
+    border-radius: 16px;
+    margin-left: 140px;
+    margin-right: 18.73px;
+}
+
+.nov{
+    width: 174.51px;
+    height: 47.93px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 47.93px;
+    padding-left: 18.88px;
+    padding-right: 19.17px;
+    padding-top: 14.38px;
+    padding-bottom: 15.34px;
+    margin-left: 38.35px;
+    
+    
+}
+
+.card11-headingg{
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 463.57px;
+    height: 76.69px;
+    margin-left: 38.35px;
+}
+
+.card11-contenttt{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 433.06px;
+    height: 75.74px;
+    margin-left: 38.35px;
+    margin-top: 47.93px;
+    margin-bottom: 34.52px;
+    margin-right: 68.86px;
+
+}
+
+.nove{
+    background-color: rgba(149, 178, 38, 1);
+    width: 174.51px;
+    height: 38.35px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+    padding-right: 18.88px;
+    padding-left: 19.17px;
+    padding-top: 9.59px;
+    padding-bottom: 10.55px;
+    margin-left: 37.91px;
+    margin-right: 78.28px;
+}
+
+.novem{
+    background-color: rgba(93, 88, 240, 1);
+    width: 174.51px;
+    height: 38.35px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+    padding-right: 18.88px;
+    padding-left: 19.17px;
+    padding-top: 9.59px;
+    padding-bottom: 10.55px;
+    margin-left: 37.91px;
+    margin-right: 78.28px;
+}
+
+.sep{
+    background-color: rgba(149, 178, 38, 1);
+    width: 179.44px;
+    height: 38.35px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+    padding-right: 18.88px;
+    padding-left: 19.17px;
+    padding-top: 9.59px;
+    padding-bottom: 10.55px;
+    margin-left: 37.91px;
+    margin-right: 78.28px;
+}
+.jul{
+    background-color: rgba(149, 178, 38, 1);
+    width: 140.44px;
+    height: 38.35px;
+    font-weight: 200;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+    padding-right: 18.88px;
+    padding-left: 19.17px;
+    padding-top: 9.59px;
+    padding-bottom: 10.55px;
+    margin-left: 38.35px;
+    margin-right: 125.21px;
+}
+
+.card22{
+    background-color: #FFFFFF;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    margin-right: 18.87px;
+    
+}
+
+.card33{
+    background-color: #FFFFFF;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    
+}
+
+.card44{
+    background-color: #FFFFFF;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    
+}
+
+.card55{
+    background-color: #FFFFFF;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    
+}
+
+.view{
+    width: 197px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 621.5px;
+    margin-right: 621.5px;
+}
+
+.card22-headingg{
+    width: 214px;
+    height: 57.52px;
+    font-weight: bold;
+    margin-left: 37.91px;
+    margin-right: 38.79px;
+    margin-top: 23.97px;
+    margin-bottom: 33.55px;
+}
+
+.card33-headingg{
+    width: 214px;
+    height: 57.52px;
+    font-weight: bold;
+    margin-left: 38.04px;
+    margin-right: 38.66px;
+    margin-top: 19.17px;
+    margin-bottom: 28.76px;
+}
+
+.card44-headingg{
+    width: 214px;
+    height: 57.52px;
+    font-weight: bold;
+    margin-left: 37.91px;
+    margin-right: 38.79px;
+    margin-top: 19.17px;
+    margin-bottom: 28.55px;
+}
+
+.card55-headingg{
+    width: 214px;
+    height: 57.52px;
+    font-weight: bold;
+    margin-left: 38.04px;
+    margin-right: 38.66px;
+    margin-top: 19.17px;
+    margin-bottom: 28.55px;
+}
+
+.cardd{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+
+
+
+/* Responsive Style */
 @media screen and (max-width: 576px) {
 
     /* navbar styles */
@@ -188,6 +687,7 @@
         margin-bottom: 12px;
         margin-left: 16px;
         margin-right: 282px;
+        
     }
 
     .navbar{
@@ -225,11 +725,256 @@
 
     .banner {
         flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 17px;
+        margin-right: 16px;
     }
     
     .banner-img1{
         height: 413px;
         weight: 336.58px;
+        margin: 0 auto;
+        
     }
+
+    .banner-info{
+        max-width: 357px;
+        max-height: 252px;
+    }
+
+    .banner-heading{
+        margin-bottom: 18px;
+    }
+
+    .banner-heading-writing{
+        font-weight: bold;
+        font-size: 2rem;
+    
+    
+    }
+    .banner-content-writing{
+        font-size: 1rem;
+        font-weight: 200px;
+        margin-bottom: 18px;
+       
+    
+    
+    }
+
+    .banner-btn{
+        font-weight: 200;
+        color: #FFFFFF;
+        font-size: 1 rem;
+        padding-left: 24px;
+        padding-top: 6px;
+        padding-right: 24px;
+        padding-bottom: 6px;
+        border-radius: 8px;
+        background-color: black;
+        margin-left: 113px; 
+        margin-right: 113px;
+    
+    }
+
+    /* cards style */
+    .cards{
+        flex-direction: column;
+        margin-left: 16.5px;
+        margin-right: 16.5px;
+        margin-bottom: 20px;
+        
+
+    }
+
+    .curriculum-heading{
+        font-weight: bold;
+        font-size: 1.625rem;
+        margin-left: 64.5px;
+        margin-top: 40px;
+        margin-right: 64.5px;
+        margin-bottom: 20px;
+        align-items: center;
+        
+    }
+
+    .card-1{
+        margin-right: 16.5px;
+        margin-left: 16.5px;
+        margin-bottom: 12.3px;
+        align-items: center;
+        border-radius: 12.77px;
+        background-color: rgba(222, 245, 255, 1);
+    }
+
+    .card-1img{
+        margin-left: 132.2px;
+        margin-right: 132.2px;
+        margin-top: 36px;
+    
+    }
+
+    .card-1-heading{
+        font-size: 1 rem;
+        font-weight: bold;
+        margin-left: 107.05px;
+        margin-right: 107.05px;
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+    .card-1-content{
+        font-weight: 200px;
+        font-size: 1rem;
+        margin-left: 81.59px;
+        margin-right: 81.59px;
+        margin-bottom: 22px;
+    }
+
+
+    .card-2{
+        margin-right: 16.5px;
+        margin-left: 16.5px;
+        margin-bottom: 12.3px;
+        align-items: center;
+        border-radius: 12.77px;
+        
+    }
+
+    .card-3{
+        margin-right: 16.5px;
+        margin-left: 16.5px;
+        margin-bottom: 12.3px;
+        align-items: center;
+        border-radius: 12.77px;
+        
+    }
+
+    .card-2img{
+        margin-left: 130.61px;
+        margin-right: 130.61px;
+        margin-top: 36px;
+    
+    }
+
+    .card-3img{
+        margin-left: 132.2px;
+        margin-right: 132.2px;
+        margin-top: 36px;
+    
+    }
+
+    .card-2-heading{
+        font-size: 1 rem;
+        font-weight: bold;
+        margin-left: 102.92px;
+        margin-right: 102.92px;
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+
+
+    .card-3-heading{
+        font-size: 1 rem;
+        font-weight: bold;
+        margin-left: 100.1px;
+        margin-right: 100.1px;
+        margin-bottom: 22px;
+        margin-top: 22px;
+    }
+
+    
+    .card-2-content{
+        font-weight: 200px;
+        font-size: 1rem;
+        margin-left: 81.59px;
+        margin-right: 81.59px;
+        margin-bottom: 22px;
+    }
+
+    .card-3-content{
+        font-weight: 200px;
+        font-size: 1rem;
+        margin-left: 81.59px;
+        margin-right: 81.59px;
+        margin-bottom: 22px;
+    }
+
+    .card-1-read{
+        font-weight: bold;
+        font-size: 0.94rem;
+        
+        margin-left: 143.66px;
+        margin-right: 159.41px;
+        margin-bottom: 39.19px;
+    }
+
+    .card-2-read{
+        font-weight: bold;
+        font-size: 0.94rem;
+        
+        margin-left: 143.66px;
+        margin-right: 159.41px;
+        margin-bottom: 36px;
+    }
+
+    .card-3-read{
+        font-weight: bold;
+        font-size: 0.94rem;
+        
+        margin-left: 143.66px;
+        margin-right: 159.41px;
+        margin-bottom: 36px;
+    }
+
+    /* footer styles */
+    .foot{
+        flex-direction: column;
+    }
+
+    .kids-education-content{
+        font-size: 1rem;
+        font-weight: 200;
+        color: #FFFFFF;
+        margin-left: 21px;
+        margin-bottom: 32px;
+        margin-right: 12px;
+    }
+
+    .about-nav{
+        margin-top: 32px;
+        margin-left: 20px;
+        margin-right: 241px;
+        width: 129px;
+        height: 188.02px;
+
+    
+    }
+
+    .last-logo-k{
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        max-width: 147.9px;
+        max-height: 22.04px;
+        margin-top: 31.98px;
+        margin-left: 20px;
+        margin-right: 222.1px;
+    
+    }
+
+    .logoes{
+        margin-right: 207.91px;
+        margin-left: 21px;
+        border-radius: 3.39px;
+        margin-bottom: 60.09px;
+    
+    }
+
+    .card11{
+        display: none;
+    }
+
+
+
+
 
 }
